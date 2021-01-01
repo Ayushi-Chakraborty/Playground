@@ -1,3 +1,6 @@
+
+#!/bin/python
+
 """
 Task
 Given a base- integer, , convert it to binary (base-). Then find and print the base- integer denoting the maximum number of consecutive 's in 's binary representation. When working with different bases, it is common to show the base as a subscript.
@@ -36,8 +39,6 @@ The binary representation of  is , so the maximum number of consecutive 's is .
 Sample Case 2:
 The binary representation of  is , so the maximum number of consecutive 's is .
 """
-
-#!/bin/python
 
 import math
 import os
