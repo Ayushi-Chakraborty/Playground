@@ -2,7 +2,6 @@
 Your table will store strings in buckets by their 
 first two letters, according to the formula below:
 
-Hash Value = (ASCII Value of First Letter * 100) + ASCII Value of Second Letter 
 You can assume that the string will have at least 
 two letters, and the first two characters are uppercase 
 letters (ASCII values from 65 to 90). You can use the 
@@ -45,7 +44,8 @@ class HashTable(object):
                 if i == string:
                     return hash_value
         return -1
-
+    
+    #Assuming: Hash Value = (ASCII Value of First Letter * 100) + ASCII Value of Second Letter 
     def calculate_hash_value(self, string):
         """Helper function to calulate a
         hash value from a string."""
