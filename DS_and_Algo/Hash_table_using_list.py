@@ -1,6 +1,7 @@
 """
 Your table will store strings in buckets by their 
 first two letters, according to the formula below:
+Hash Value = (ASCII Value of First Letter * 100) + ASCII Value of Second Letter
 
 You can assume that the string will have at least 
 two letters, and the first two characters are uppercase 
